@@ -5,3 +5,10 @@
   margin: 0px;
   box-sizing: border-box;
 }
+button {
+  cursor: pointer;
+}
+span,
+input {
+  color: white;
+}
