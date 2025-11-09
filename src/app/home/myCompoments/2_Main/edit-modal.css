@@ -89,6 +89,9 @@
 .edit-post-container {
   border-color: transparent;
 }
+.edit-post-box {
+  border-color: transparent;
+}
 @media screen and (max-width: 702px) {
   .edit-modal {
     width: 100%;
