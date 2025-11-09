@@ -346,8 +346,10 @@ export default function Main() {
             <span className="">For you</span>
           </button> */}
           <button className="feed-for-you-button relative flex flex-col items-center">
-            <span className="text-white font-semibold">For you</span>
-            <span className="block w-13 h-1 bg-blue-500 mt-2 rounded-full absolute bottom-[0px]"></span>
+            <span className="feed-for-you-text bg-blue text-white font-semibold">
+              For you
+            </span>
+            <span className="feed-for-you-line block w-13 h-1 bg-blue-500 mt-2 rounded-full absolute bottom-[0px]"></span>
           </button>
 
           <div></div>

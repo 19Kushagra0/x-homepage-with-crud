@@ -4,6 +4,8 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+
+  background-color: black;
 }
 button {
   cursor: pointer;
@@ -11,4 +13,7 @@ button {
 span,
 input {
   color: white;
+}
+svg {
+  background-color: transparent;
 }
