@@ -64,7 +64,7 @@
 }
 .edit-input-image-container {
   position: absolute;
-  top: 15px;
+  top: 5px;
   left: 10px;
 }
 .edit-input {
@@ -77,6 +77,7 @@
   padding-left: 66px;
 
   color: white;
+  outline: none;
 }
 .close-image {
   width: 20px;
