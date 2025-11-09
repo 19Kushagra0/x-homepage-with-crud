@@ -1,7 +1,7 @@
 .header {
   width: 26.5%;
   height: 100vh;
-  background-color: red;
+  /* background-color: red; */
 
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@ button {
 .header-X-image-container {
   width: 50px;
   height: 50px;
-  background-color: royalblue;
+  /* background-color: royalblue; */
 
   display: flex;
   flex-direction: row;
@@ -57,7 +57,7 @@ button {
 
 .header-button {
   width: fit-content;
-  background-color: firebrick;
+  /* background-color: firebrick; */
 
   display: flex;
   flex-direction: row;
@@ -77,7 +77,7 @@ button {
 .header-image {
   width: 22px;
   height: 23px;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
 
   fill: white;
 }
@@ -130,9 +130,12 @@ button {
   padding: 10px;
 
   border-radius: 100px;
+
+  margin-right: 10px;
 }
 .header-profile-container2 {
   display: none;
+  margin-right: 0px !important;
 }
 .header-profile-detail-image-container {
   display: flex;
@@ -180,7 +183,13 @@ button {
 .header-profile-threeDot {
   width: 20px;
   height: 20px;
-  background-color: lawngreen;
+  /* background-color: lawngreen; */
+}
+.header-profile-threeDot2:hover {
+  width: 20px;
+  height: 20px;
+  /* background-color: lawngreen; */
+  fill: #71767b !important;
 }
 @media screen and (max-width: 1501px) {
   .header-button-name {
@@ -236,7 +245,7 @@ button {
   .header-post-image {
     width: 24px;
     height: 24px;
-    background-color: aqua;
+    /* background-color: aqua; */
 
     /* display: none; */
   }
@@ -288,6 +297,6 @@ button {
 }
 @media screen and (max-width: 700px) {
   .header {
-    width: 60px;
+    width: 80px;
   }
 }

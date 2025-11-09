@@ -200,7 +200,18 @@ export default function Header() {
             <span className="user-id">User Id</span>
           </div>
         </div>
-        <div className="header-profile-threeDot"></div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          className="header-profile-threeDot header-profile-threeDot2"
+        >
+          <g>
+            <path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z" />
+          </g>
+        </svg>
+        {/* <div className="header-profile-threeDot"></div> */}
       </button>
       <button className="header-profile-container2">
         <div className="header-profile-detail-image-container">
