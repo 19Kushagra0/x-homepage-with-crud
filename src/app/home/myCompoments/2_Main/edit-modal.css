@@ -1,0 +1,104 @@
+.edit-cover-model {
+  width: 100%;
+  height: 100vh;
+  z-index: 15;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 255, 255, 0.2);
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.edit-modal {
+  z-index: 15;
+
+  width: 600px;
+  background-color: black;
+
+  position: fixed;
+
+  top: 40px;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.edit-modal-header {
+  width: 100%;
+  height: 53px;
+  /* background-color: blue; */
+
+  display: flex;
+  flex-direction: row;
+
+  display: flex;
+
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+.close-button {
+  /* background-color: palevioletred; */
+  padding: 10px;
+  border-radius: 100px;
+}
+.close-button:hover {
+  background-color: rgb(64, 64, 64);
+}
+.edit-input-container {
+  width: 100%;
+  height: 127px;
+  /* background-color: red; */
+
+  padding-top: 10px;
+
+  position: relative;
+}
+.edit-input-image-container {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.edit-input {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 66px;
+
+  color: white;
+}
+.close-image {
+  width: 20px;
+  height: 20px;
+  /* background-color: green; */
+
+  fill: white;
+}
+.edit-post-container {
+  border-color: transparent;
+}
+@media screen and (max-width: 702px) {
+  .edit-modal {
+    width: 100%;
+    left: 0px;
+
+    align-items: center;
+  }
+  .edit-cover-model {
+    background-color: black;
+  }
+  .edit-line {
+    width: 90%;
+  }
+}
