@@ -82,6 +82,8 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
+  resize: none;
+  /* overflow: auto; */
 }
 .close-image {
   width: 20px;
@@ -96,6 +98,7 @@
 
 .edit-post-box {
   border-color: transparent;
+  padding-top: 10px;
 }
 @media screen and (max-width: 702px) {
   .edit-modal {
