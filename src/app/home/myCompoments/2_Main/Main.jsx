@@ -213,7 +213,7 @@ export default function Main() {
             <div className="feed-line edit-line"></div>
 
             <div className="feed-post-container edit-post-container">
-              <div className="feed-post-box">
+              <div className="feed-post-box  edit-post-box">
                 <div className="feed-post-left">
                   <button className="feed-post-option-button">
                     <svg
