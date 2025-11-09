@@ -65,7 +65,7 @@
 .edit-input-image-container {
   position: absolute;
   top: 5px;
-  left: 10px;
+  left: 18px;
 }
 .edit-input {
   width: 100%;
@@ -74,10 +74,14 @@
   display: flex;
   flex-direction: row;
 
-  padding-left: 66px;
+  padding-left: 76px;
 
   color: white;
   outline: none;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
 }
 .close-image {
   width: 20px;
@@ -89,6 +93,7 @@
 .edit-post-container {
   border-color: transparent;
 }
+
 .edit-post-box {
   border-color: transparent;
 }

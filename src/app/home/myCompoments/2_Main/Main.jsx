@@ -184,6 +184,7 @@ export default function Main() {
                 />
               </div>
               <textarea
+                placeholder="What's happening?"
                 onChange={inputEditHandler}
                 value={inputEditValue}
                 className="edit-input"
