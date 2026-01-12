@@ -115,7 +115,7 @@ export default function Header() {
 
           <div className="header-button-name">Bookmarks</div>
         </button>
-        <button className="header-button">
+        <button className="header-button  hide-on-small">
           <svg
             className="header-image"
             xmlns="http://www.w3.org/2000/svg"
