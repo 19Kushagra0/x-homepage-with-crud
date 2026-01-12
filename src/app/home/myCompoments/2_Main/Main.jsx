@@ -377,6 +377,12 @@ export default function Main() {
               type="text"
               value={inputValue}
               onChange={inputHandler}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault(); // ✅ important
+                  addValue(); // ✅ POST
+                }
+              }}
             />
           </div>
 
