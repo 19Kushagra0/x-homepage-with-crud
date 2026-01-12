@@ -300,3 +300,8 @@ button {
     width: 80px;
   }
 }
+@media screen and (max-height: 690px) {
+  .hide-on-small {
+    display: none;
+  }
+}
